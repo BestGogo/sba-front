@@ -55,7 +55,7 @@ spec:
               '/elastic/apm/agent',
             ]
       containers:
-        - image: brainupgrade/weather-services:metrics
+        - image: k1ngofsh2ttalking/backend:v3
           imagePullPolicy: Always
           name: weather-services
           volumeMounts:
